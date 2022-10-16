@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   --primary-color: #fff;
+   --secondary-color : rgb(226, 11, 93);
+}
+
+body{
+    color: black;
+    overflow-x: hidden;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+	overflow: hidden;
+    background-color:#fff;
+    overflow-x:hidden;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    justify-content: flex-end;
+}
+
+nav ul{
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    color:black;
+}
+
+nav ul li{
+    padding:20px 10px;
+}
+
+
+.container{
+    margin: 20px auto;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo img{
+    height: 90px;
+}
+
+form .inputblock{
+    margin: 15px auto;
+    width: 35vw;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.451);
+    padding:5px 8px;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+	background-color: white;
+}
+form .inputblock input{
+    width: 100%;
+    border: 0;outline: 0;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+form input[type='submit']{
+    height: 30px;
+    border: 0;outline: 0;
+    margin: 10px 10px;
+    padding: 4px 8px;
+}
+.languages{
+    margin-top: 20px;
+}
+.button{
+    justify-content: center;
+	
+}
+
+.button .btn{
+	margin-right: 40px;
+	border: 3px solid rgb(11, 10, 10);
+	padding: 5px;
+    
+}
+
+.button a{
+   margin-left: 40px;
+   background-color: rgba(233 230 230 / 86%);
+   box-sizing: border-box;
+   padding: 5px;
+   align-items: center;
+   border: 3px solid rgb(11, 10, 10);
+   color: black;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+}
+
+.text{
+    margin-left: 10px;
+}
+
+footer>.row ul{
+    display: flex;
+    list-style: none;
+}
+footer>.row ul li{
+    padding: 4px 4px 4px 12px;
+}
+
+.row.bottom{
+    display: flex;
+    
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages h3{
+    margin: 5px;
+}
+
+.languages a
+{
+    margin: 5px;
+}
+
+
+/*not optimised for phone*/
